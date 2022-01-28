@@ -16,7 +16,6 @@ let package = Package(
         .target(name: "Masonry",
                 dependencies: [],
                 path: "Masonry",
-                exclude: ["Info.plist"],
-                publicHeadersPath: nil)
+                exclude: ["Info.plist", "include/cpScript.sh"])
     ]
 )
